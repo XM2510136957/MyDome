@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:background="#3c9aff"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="防洪一键生成"
+            android:textSize="20sp"
+            android:textColor="#f7f7f7"
+            />
+
+        <ImageView
+            android:layout_margin="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:src="@mipmap/wenhao" />
+    </RelativeLayout>
+
+
+    <EditText
+        android:layout_marginTop="15dp"
+        android:id="@+id/ed_wangye"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:maxLines="1"
+        android:hint="网站链接:" />
+
+
+
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/btn_cancle"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/btn_confirm"
+            android:background="@android:color/transparent"
+            android:text="取消"
+            android:textColor="#FFEE1D66"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/btn_confirm"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@android:color/transparent"
+            android:text="生成"
+            android:textColor="#FFEE1D66"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+
+</LinearLayout>

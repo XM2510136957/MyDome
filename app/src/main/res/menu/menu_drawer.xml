@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_shop"
+            android:checkable="true"
+            android:icon="@mipmap/main"
+            android:title="商品界面" />
+
+        <item
+            android:id="@+id/nav_zhanzhang"
+            android:checkable="true"
+            android:icon="@mipmap/zhandian"
+            android:title="站长登陆" />
+
+
+        <item
+            android:id="@+id/nav_fenzhan"
+            android:checkable="true"
+            android:icon="@mipmap/fenzahn"
+            android:title="分站登陆" />
+
+
+    </group>
+
+    <item android:title="其他">
+        <menu>
+            <item
+                android:id="@+id/nav_jiaqun"
+                android:checkable="true"
+                android:icon="@mipmap/qun"
+                android:title="进群送赞" />
+
+            <item
+            android:id="@+id/nav_fanghong"
+            android:icon="@mipmap/sc1"
+            android:checkable="true"
+            android:title="生成防洪" />
+
+            <item
+                android:id="@+id/nav_update"
+                android:checkable="true"
+                android:icon="@mipmap/kefu"
+                android:title="联系客服" />
+
+        </menu>
+    </item>
+</menu>

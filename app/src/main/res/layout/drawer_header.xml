@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="190dp"
+    android:background="@mipmap/timg"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <!--<RelativeLayout-->
+        <!--android:orientation="horizontal"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/iv_icon"-->
+            <!--android:layout_width="75dp"-->
+            <!--android:layout_height="75dp"-->
+            <!--android:layout_margin="15dp"-->
+            <!--android:background="@drawable/icon_shape"-->
+            <!--android:src="@mipmap/default10" />-->
+
+        <!--<TextView-->
+            <!--android:layout_centerInParent="true"-->
+            <!--android:layout_toRightOf="@+id/iv_icon"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="学号12138"-->
+            <!--android:textColor="#fff"-->
+            <!--android:textSize="16sp" />-->
+
+
+    <!--</RelativeLayout>-->
+
+</LinearLayout>
